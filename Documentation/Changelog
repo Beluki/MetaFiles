@@ -1,0 +1,25 @@
+
+CHANGELOG
+
+* 2013/09/27:
+
+    - Added repr() for MetaFiles instances.
+
+    - Support multiple extensions.
+
+* 2013/08/30:
+
+    - reload() renamed to load().
+
+* 2013/08/29:
+
+    - Added 'setup.py' for setuptools.
+
+* 2013/08/19:
+
+    - Avoid dependency on Werkzeug.
+
+    - Accept input files with a BOM signature.
+
+    - Port to Python 3.
+
