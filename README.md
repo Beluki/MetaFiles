@@ -1,5 +1,5 @@
 
-### About
+## About
 
 MetaFiles is a small Python 3 library that maintains a collection
 of lazily cached static files with metadata and content, just like
@@ -21,7 +21,7 @@ application.
 [Flask-FlatPages]: https://pypi.python.org/pypi/Flask-FlatPages
 [Flask-JSONPages]: https://pypi.python.org/pypi/Flask-JSONPages
 
-### Installation and usage
+## Installation and usage
 
 MetaFiles is a single, small Python 3 file with no dependencies other than
 the Python 3 standard library. You can just include it in your projects
@@ -62,18 +62,18 @@ for post in posts:
     print(post.meta['title'])
 ```
 
-### Portability
+## Portability
 
 MetaFiles is tested on Windows 7 and 8 and on Debian (both x86 and x86-64)
 using Python 3.3+. Python 2.x is not supported.
 
-### Status
+## Status
 
 This program is feature-complete and has no known bugs. Unless new issues
 are reported or requests are made I plan no further development on it other
 than maintenance.
 
-### License
+## License
 
 Like all my hobby projects, this is Free Software. See the [Documentation][]
 folder for more information. No warranty though. Because it's based on the
