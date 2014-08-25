@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name = 'MetaFiles',
-    version = '2014.01.11',
+    version = '2014.08.25',
     url = 'https://github.com/Beluki/MetaFiles',
     license = 'BSD',
     author = 'Beluki',
@@ -21,8 +21,7 @@ setup(
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3'
     ]
 )
 

@@ -124,10 +124,10 @@ class MetaFiles(object):
 
     def load_file(self, filepath):
         """ Read 'filepath' and return a MetaFile instance. """
-
         with open(filepath, encoding = self.encoding) as descriptor:
             content = descriptor.read()
             meta, body = self.split(content)
+
             return MetaFile(filepath, meta, body, self.meta_render, self.body_render)
 
     def load(self):
@@ -157,7 +157,6 @@ class MetaFiles(object):
 
     def get(self, filepath, default = None):
         """ Returns the MetaFile at 'filepath' or 'default' on lookup error. """
-
         if filepath in self._metafiles:
             return self._metafiles[filepath]
         else:
