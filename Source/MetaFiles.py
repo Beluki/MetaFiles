@@ -76,7 +76,7 @@ class MetaFile(object):
 
     def __repr__(self):
         """ Machine representation of this instance. """
-        return '<MetaFile %r>' % self.filepath
+        return '<MetaFile {!r}>'.format(self.filepath)
 
 
 class MetaFiles(object):
@@ -168,5 +168,5 @@ class MetaFiles(object):
 
     def __repr__(self):
         """ Machine representation of this instance. """
-        return '<MetaFiles %r>' % self.root
+        return '<MetaFiles {!r}>'.format(self.root)
 

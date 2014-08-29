@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name = 'MetaFiles',
-    version = '2014.08.25',
+    version = '2014.08.29',
     url = 'https://github.com/Beluki/MetaFiles',
     license = 'BSD',
     author = 'Beluki',
