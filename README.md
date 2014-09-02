@@ -23,7 +23,7 @@ application.
 
 ## Installation and usage
 
-MetaFiles is a single, small Python 3 file with no dependencies other than
+MetaFiles is a single, small Python 3.3+ file with no dependencies other than
 the Python 3 standard library. You can just include it in your projects
 or install it using setuptools:
 
@@ -65,13 +65,14 @@ for post in posts:
 ## Portability
 
 MetaFiles is tested on Windows 7 and 8 and on Debian (both x86 and x86-64)
-using Python 3.3+. Python 2.x is not supported.
+using Python 3.3+. Older versions are not supported.
 
 ## Status
 
-This program is feature-complete and has no known bugs. Unless new issues
-are reported or requests are made I plan no further development on it other
-than maintenance.
+This program is finished!
+
+MetaFiles is feature-complete and has no known bugs. Unless issues are reported
+I plan no further development on it other than maintenance.
 
 ## License
 
