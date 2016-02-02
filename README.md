@@ -80,5 +80,5 @@ Like all my hobby projects, this is Free Software. See the [Documentation][]
 folder for more information. No warranty though. Because it's based on the
 work of Simon Sapin in Flask-FlatPages it uses the same license.
 
-[Documentation]: https://github.com/Beluki/MetaFiles/tree/master/Documentation
+[Documentation]: Documentation
 
